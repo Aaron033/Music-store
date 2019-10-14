@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aaron's Music Store</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item ">
+     <strong class="til">Music And Art</strong> 
+    </a>
+
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+  </div>
+
+  <div  class="navbar-menu" id="navMenu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        Take Lessons
+      </a>
+
+      <a class="navbar-item">
+            Repair Shop
+          </a>
+
+          <a class="navbar-item">
+                Rentals 
+              </a>
+    
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item">
+            Jobs
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+        
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary sign">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="searchBox">
+    <div class="shopCateg">
+          
+<div class="shop-tile">
+    <div class="dropdown">
+        <button class="dropbtn mobile">Shop by Category</button>
+        <div class="dropdown-content">
+          <a href="#">Woodwinds</a>
+          <a href="#">Guitars</a>
+          <a href="#">Brass</a>
+          <a href="#">Keyboard and MIDI</a>
+        </div>
+
+ 
+
+</div> 
+</div>
+
+    </div>
+    <div class ="search-bar-div">
+        <form class="example" action="/action_page.php">
+            <input class="in"type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+
+        </div>
+</div>
+
+<h1 class="ml15">
+    <span class="word">See Our</span>
+    <span class="word">Deals!</span>
+  </h1>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<main class="mainCont">
+
+    <div class="columns">
+        <div class="column">
+            <div class="w3-content w3-display-container slides1">
+         
+                   
+                <img class="mySlides"  src="/images/VacavilleTown.jpg" alt="">
+
+         
+                 <img class="mySlides"  src="/images/latin_night.jpg" alt="">
+             
+             
+                 <img  class="mySlides"  src="/images/fb-post_Live-Music.jpg" alt="">
+       
+         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+     </div>
+
+
+
+        </div>
+        <div class="column">
+
+
+
+            <div class="w3-content w3-display-container slides2">
+                <img class="mySlidess"  src="/images/AdStores.jpg"  style="width:100%">
+                <img class="mySlidess"  src="/images/piano.jpg" style="width:100%">
+                <img class="mySlidess"  src="/images/drum.jpg"  style="width:100%">
+ 
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivss(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivss(1)">&#10095;</button>
+              </div>
+
+
+
+     
+        </div>
+
+      
+      </div>
+        
+                <div class="columns sales ">
+                  <div class="column">
+<img src="/images/salesperson3.jpg" alt="">
+<div>
+  <h6><strong>Dafne Teague</strong></h6>
+  <p><strong>Retail Manager</strong></p>
+<p>I am a local Houston musician, that specializes in guitar and vocals. 
+  I love to perform and write my own songs! In my previous experience I 
+  played French.</p>
+</div>
+                  </div>
+                  <div class="column">
+                    <img src="/images/salesperson4.jpg" alt="">
+                    <div>
+                        <h6><strong>Thomas Murphy</strong></h6>
+                        <p><strong>Semior Sales Associate Manager</strong></p>
+                    <p>Diego is one of our bilingual associates, fluent in Spanish and English.
+                       Diego started playing Trumpet ever since he was in 6th grade.</p>
+                  </div>
+                </div>
+                  <div class="column">
+                    <img src="/images/salesperson6.jpg" alt="">
+                    <div>
+                        <h6><strong>Walles Grifindor</strong></h6>
+                        <p><strong>Senior Sales Associate</strong></p>
+                    <p>Caleb is our Bilingual part time associate. He is passionate about music
+                       and has been involved in it since he was 9 years old. His main instrument
+                        is Piano.</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="columns sub">
+                    <div class="column">
+                      <h3>Our Store</h3>
+                      <img src="/images/musicStore.jpg" alt="">
+                      8600 Jameel Rd Suite 120
+                        Houston, TX 77040-6027
+                        Phone: 713-996-7993</div>
+
+                    <div class="column table-title">
+           
+                      <h3>Our Schedule</h3>
+                      <table>
+                          <tr>
+                            <th colspan="2" >Store hours</th>
+                          </tr>
+                          <tr>
+                            <td>Mon-Fri:</td>
+                            <td>10:00 AM - 8:00PM</td>
+                           
+                          </tr>
+                          <tr>
+                            <td>Sat:</td>
+                            <td>10:00AM - 6:00PM</td>
+                          </tr>
+                          <tr>
+                            <td>Sun:</td>
+                            <td>Closed</td>
+                           
+                          </tr>
+                          
+                        </table>
+                    </div>
+                    <div class="column">
+                      <h3>Join the Music & Arts Family</h3>
+                      <p> Career minded? Goal-Oriented? Looking for a position which rewards 
+                        you for your hard work and experience? Music & Arts is looking for you! 
+                        If you would like to combine your passion for music with your excellent 
+                        work history, Music & Arts is the place for you</p>
+                    </div>
+                  </div>
+          
+</main>
+
+<footer>
+        <div class="columna">
+            <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Email address" name="search">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+                  <div class="newsletterPro">
+                      <p>SIGN UP FOR OUR NEWSLETTER </p>
+                      <p>Sign Up for emails & receive a 10% off coupon!</p>
+                  </div>
+
+            </div>
+        <div class="columns">
+                <div class="column">
+                    
+                <ul>
+                    <h4>Contact Us</h4>
+                    <li><a href="">Customer Service Dept.</a></li>
+                    <li><a href="">Music & Arts</a></li>
+                    <li><a href="">888-731-5396</a></li>
+                </ul>
+                </div>
+                <div class="column">
+                    
+                    <ul>
+                        <h4>Costumer Service</h4>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Educator FAQ</a></li>
+                            <li><a href="">Student Resources</a></li>
+                            <li><a href="">Site Map</a></li>
+                        </ul>
+                </div>
+                <div class="column">
+                        
+                        <ul>
+                            <h4>Policies & Services</h4>
+                                <li><a href="">Financing
+                                  </a></li>
+                                <li><a href="">School Services</a></li>
+                                <li><a href="">Institutional Sales</a></li>
+                                <li><a href="">Rentals
+                                  </a></li>
+                            </ul>
+                </div>
+                <div class="column">
+                        
+                        <ul>
+                            <h4>About Music & Arts</h4>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Affiliates</a></li>
+                                <li><a href="">Encore Rewards</a></li>
+                                <li><a href="">Tradeshows</a></li>
+                            </ul>
+                </div>
+              </div>
+              <div class="legal">
+                  <p>© 2019 Music & Arts. All rights reserved. Terms & Conditions Privacy Policy Accessibility Statement</p>
+              </div>
+</footer>
+
+
+<script src ="/script.js"></script>
+</body>
+</html>
