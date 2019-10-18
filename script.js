@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
       x[slideIndexx-1].style.display = "block";  
     }
 
-
+// animated letters 
    
     anime.timeline({loop: true})
   .add({
