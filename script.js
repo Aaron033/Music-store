@@ -1,3 +1,4 @@
+//Main navigation responsive code 
 document.addEventListener('DOMContentLoaded', () => {
 
    // Get all "navbar-burger" elements
